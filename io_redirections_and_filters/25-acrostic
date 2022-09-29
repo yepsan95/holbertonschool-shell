@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d$'/n' -f 1-20 
+cut N

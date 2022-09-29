@@ -1,2 +1,2 @@
 #!/bin/bash
-cat | cut -d$'/n' -f 1 
+cut -d$'/n' -f 1-20 

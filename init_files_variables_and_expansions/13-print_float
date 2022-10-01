@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM
+echo $(echo $NUM | cut -d '.' -f 1).$(echo $NUM | cut -d '.' -f 2 | cut -c 1-2)

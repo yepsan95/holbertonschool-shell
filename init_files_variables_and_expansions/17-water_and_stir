@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$((${water}#${WATER}))"
+$(((5#$($WATER | tr water 01234)) + (5#($STIR | tr stir. 01234)))) | printf '%o' | tr 01234567 bestchol
